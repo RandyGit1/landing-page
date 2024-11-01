@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+
+
+.hero, .footer, .header{
+    background-color: #1F2937;
+}
+
+.hero-text > h1{
+    font-size: 48px; 
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text p, .header li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
