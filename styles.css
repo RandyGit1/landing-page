@@ -15,23 +15,39 @@ body {
     flex-grow: 1;
 }
 
-.header {
-    padding: 8px 0;
-}
-
-.hero {
-    padding: 200px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 ul{
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+}
+
+body a:hover {
+    color: rgb(144, 146, 248);
+}
+
+body button:hover {
+    color: rgb(211, 212, 233);
+}
+
+.hero, .footer, .header{
+    background-color: #1F2937;
+}
+
+.header {
+    padding: 8px 0;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container ul {
+    display: flex;
+    gap: 10px;
 }
 
 .container {
@@ -41,6 +57,13 @@ a {
     width: 66%;
     margin: 0 auto;
     padding: 10px;
+}
+
+.hero {
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .placeholder {
@@ -53,10 +76,6 @@ a {
     color: #E5E7EB
 }
 
-.container ul {
-    display: flex;
-    gap: 10px;
-}
 
 .hero .container {
     gap: 45px;
@@ -67,6 +86,23 @@ a {
     display: inline;
 }
 
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-text > h1{
+    font-size: 48px; 
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text p, .header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 
 .information{
@@ -77,14 +113,6 @@ a {
     padding: 100px;
     text-align: center;
 }
-
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
-
 
 
 .information h2 {
@@ -113,33 +141,6 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.hero, .footer, .header{
-    background-color: #1F2937;
-}
-
-.footer {
-    color: #F9FAF8;
-    text-align: center;
-    padding: 30px;
-}
-
-.hero-text > h1{
-    font-size: 48px; 
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
-.hero-text p, .header a {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.logo {
-    font-weight: 900;
-    font-size: 24px;
-    color: #F9FAF8;
 }
 
 .call-to-action {
@@ -197,4 +198,10 @@ button {
     font-style: italic;
     color: #1F2937;
     margin-bottom: 10px;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
