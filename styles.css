@@ -6,6 +6,35 @@
 
 body {
     font-family: Roboto, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hero, .information, .quote, .call-to-action {
+    flex-grow: 1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 66%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container ul {
+    display: flex;
+    gap: 10px;
 }
 
 
@@ -14,23 +43,30 @@ body {
     background-color: #1F2937;
 }
 
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
+}
+
 .hero-text > h1{
     font-size: 48px; 
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.hero-text p, .header li {
+.hero-text p, .header a {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .logo {
+    font-weight: 900;
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.call-to-action {
+.call-to-action .container {
     background-color: #3882F6;
 }
 
