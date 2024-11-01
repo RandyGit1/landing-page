@@ -6,12 +6,12 @@
 
 body {
     font-family: Roboto, Helvetica, sans-serif;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100vh; */
 }
 
-.hero, .information, .quote, .call-to-action {
+.hero, .information, .quote-bg, .call-to-action {
     flex-grow: 1;
 }
 
@@ -70,6 +70,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .call-to-action .container {
@@ -101,13 +102,28 @@ a {
     font-weight: 900;
 }
 
-.quote {
-    background-color: #E5E7EB
+.quote-bg{
+    padding: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    width: 40%;
+}
+
+.quote-source {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
 }
 
 .quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    margin-bottom: 10px;
 }
