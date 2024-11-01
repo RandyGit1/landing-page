@@ -66,12 +66,33 @@ a {
     color: #F9FAF8;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .call-to-action .container {
+    display: flex; 
+    padding: 60px 150px;
+    justify-content: space-between;
     background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
 }
 
 .call-to-action button {
+    font-size: 18px;
+    font-weight: 600;
     background-color: #3882F6;
+    padding: 8px 25px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+}
+
+.call-to-action h3 {
+    font-size: 25px;
 }
 
 .information h2 {
